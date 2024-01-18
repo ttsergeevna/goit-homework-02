@@ -5,22 +5,24 @@ ul{
     list-style: none;
 }
 body{
-    font-family: Roboto;
-    color: #2E2F42;
+    
+        font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #ffffff;
 
 }
 .logo{
-        color: #2E2F42;
-        font-family: Raleway;
+        color: #4d5ae5;
+        font-family: Raleway,sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         /* 116.667% */
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 .logo-web{
-    color:#4D5AE5;
+    color:#2e2f42;
 }
 .nav-text{
         color: #2E2F42;
@@ -31,6 +33,9 @@ body{
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.02em;
+}
+.home{
+    font-style: normal;
 }
 
 .logo:hover,
@@ -74,9 +79,8 @@ body{
     background-color: #2E2F42;
 }
 .but-order{
-    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
         background: #4D5AE5;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         cursor: pointer;
         color: #FFFFFF;
             font-size: 16px;
@@ -87,7 +91,7 @@ body{
 }
 .but-order:hover,
 .but-order:focus{
-    color:#404BBF;
+    background-color:#404BBF;
 }
 
 /* section 2 */
@@ -99,22 +103,26 @@ body{
     letter-spacing: 0.02em;
 }
 .features-text{
-color:#434455;
-
+    color:#434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    /* 150% */
-    letter-spacing: 0.02px;
+    letter-spacing: 0.02em;
     
 }
 /* section 3 */
+.sec-three{
+    background-color: #F4F4FD;
+}
+.three-num{
+    background-color: #FFFFFF
+}
+ /* < !--section portfolio--> */
 .headline{
     text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    /* 111.111% */
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -129,11 +137,11 @@ color:#434455;
 text-align: center;
 }
 .studio{
-color:  #F4F4FD;
-    font-family: Raleway;
+color: #4d5ae5;
+    font-family: "Raleway",sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -141,15 +149,13 @@ color:  #F4F4FD;
 .end{
     background: #2E2F42;
 }
-
+.logo-stu{
+    color:#F4F4FD;
+}
 .end-text{
 color:  #F4F4FD;
-
-    /* Body */
-    
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.02em;
 }
