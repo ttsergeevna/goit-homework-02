@@ -96,6 +96,7 @@ body{
 
 /* section 2 */
 .features{
+    color:#2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.20;
@@ -127,12 +128,15 @@ body{
     text-transform: capitalize;
 }
 .employees{
+        color:#2e2f42;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         /* 120% */
         letter-spacing: 0.02em;
 }
+
+
 .human{
 text-align: center;
 }
